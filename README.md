@@ -4,7 +4,7 @@
 - Setup python >= 3.6
 - run `pip install pipenv`
 - run `pipenv install`
-- run `ipenv shell`
+- run `pipenv shell`
 - run `python manage.py migrate`
 
 ### Run local django sercer
