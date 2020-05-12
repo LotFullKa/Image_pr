@@ -8,8 +8,19 @@ body{
     box-sizing: border-box;
 }
 
+/* Container */
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    width: 100%;
+
+    background:
+    url("../caves.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
 }

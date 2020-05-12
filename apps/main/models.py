@@ -12,15 +12,11 @@ class Image(models.Model):
     characters_race = models.CharField(
         max_length=100,
         choices=enum_to_choices(RaceEnum),
-        null=False,
-        default=RaceEnum.NONE,
     )
 
     characters_cls = models.CharField(
         max_length=100,
         choices=enum_to_choices(ClassEnum),
-        null=False,
-        default=ClassEnum.NONE,
     )
 
     def __str__(self):

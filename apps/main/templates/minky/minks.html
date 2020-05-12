@@ -1,19 +1,21 @@
 {% extends "base.html" %}
 
-
 {% block content %}
 
-    <h1>здоровый сука</h1>
+    <h1 align="center"><span class="badge badge-primary"> Choice Your Hero ! </span></h1>
 
     <form method='GET' action="">
 
-    {{ form.as_p }}
-    <button type="submit"> Find </button>
+        {{ form.as_p }}
 
+        <input class="btn btn-outline-dark" type="submit" name="find" value="Find">
+
+        <input class="btn btn-outline-dark" type="submit" name="cancel" value="Cancel">
     </form>
 
-    {% block cartoons %}
-    {% endblock %}
-
+    <div>
+        {% block cartoons %}
+        {% endblock %}
+    </div>
 
 {% endblock %}
