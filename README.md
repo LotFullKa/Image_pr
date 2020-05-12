@@ -1,7 +1,7 @@
 # Image_pr
 
 ### Python 
-- Setuo python >= 3.6
+- Setup python >= 3.6
 - run `pip install pipenv`
 - run `pipenv install`
 - run `ipenv shell`
