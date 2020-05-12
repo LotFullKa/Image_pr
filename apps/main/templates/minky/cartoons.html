@@ -1,0 +1,14 @@
+{% extends 'minky/minks.html' %}
+
+ {% block cartoons %}
+    <h1>ЕБАТЬ КАКОЙ У МЕНЯ ТЕКСТ </h1>
+     <caption>
+        {% if last_minks %}
+            {% for obj in last_minks %}
+                <img src="{{ obj.img.url }}" width="200" >
+            {% endfor %}
+        {% else %}
+            лол, картинок нет
+        {% endif %}
+     </caption>
+{% endblock %}

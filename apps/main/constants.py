@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class RaceEnum(Enum):
-    NONE = 'none'
+    NONE = ''
     HUMAN = 'Human'
     ELF = 'Elf'
     HALF_ELF = 'Half_Elf'
@@ -11,7 +11,7 @@ class RaceEnum(Enum):
 
 
 class ClassEnum(Enum):
-    NONE = 'none'
+    NONE = ''
     DRUID = 'Druid'
     WIZARD = 'Wizard'
     BARD = 'Bard'
