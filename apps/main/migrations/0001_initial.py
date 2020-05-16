@@ -17,8 +17,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('img', models.ImageField(upload_to='')),
-                ('characters_cls', models.CharField(choices=[('NONE', 'none'), ('DRUID', 'druid'), ('WIZARD', 'wizard'), ('BARD', 'bard')], default=apps.main.constants.ClassEnum['NONE'], max_length=100)),
-                ('characters_race', models.CharField(choices=[('NONE', 'none'), ('HUMAN', 'human'), ('ELF', 'elf'), ('HALF_ELF', 'half_elf'), ('GNOME', 'gnome'), ('HALFLING', 'halfling')], default=apps.main.constants.RaceEnum['NONE'], max_length=100)),
+                ('characters_cls', models.CharField(choices=[('DRUID', 'druid'), ('WIZARD', 'wizard'), ('BARD', 'bard')], max_length=100)),
+                ('characters_race', models.CharField(choices=[('HUMAN', 'human'), ('ELF', 'elf'), ('HALF_ELF', 'half_elf'), ('GNOME', 'gnome'), ('HALFLING', 'halfling')], max_length=100)),
             ],
         ),
     ]

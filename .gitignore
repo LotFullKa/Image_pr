@@ -1,5 +1,3 @@
-media/
-static/
-.idea/
+.idea/*
 __pycache__/
 

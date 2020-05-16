@@ -1,19 +1,33 @@
 {% extends "base.html" %}
 
-
 {% block content %}
+    <div class="container">
+    <h1 align="center"><span class="badge badge-dark"> Choice Your Hero ! </span></h1>
 
-    <h1>здоровый сука</h1>
 
     <form method='GET' action="">
 
-    {{ form.as_p }}
-    <button type="submit"> Find </button>
+        {{ form.as_p }}
 
+        <input class="btn btn-outline-dark" type="submit" name="find" value="Find">
+
+        <input class="btn btn-outline-dark" type="submit" name="cancel" value="Cancel">
     </form>
 
-    {% block cartoons %}
-    {% endblock %}
+    <div>
+        {% block cartoons %}
+        {% endblock %}
+    </div>
+    <p>
+    <div> Если вы хотите добавить картинку :
+    <form method="post" action="">
+        {% csrf_token %}
 
+        {{ form_for_upload.as_p }}
 
+        <input class="btn btn-outline-dark" type="submit" name="upload" value="Upload">
+    </form>
+    </div>
+    </p>
+    </div>
 {% endblock %}
