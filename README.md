@@ -9,3 +9,11 @@
 
 ### Run local django sercer
 - run `python manage.py runserver`
+
+### Run Tests
+Install Dependencies:
+- run `python -m pip install --upgrade pip`
+- run `pip install django`
+- run `python -m pip install Pillow`
+Run Tests:
+-run `python manage.py test`
