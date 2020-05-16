@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a11a40-0933-402d-a19b-58765c077fa6" name="Default Changelist" comment="">
+    <list default="true" id="55a11a40-0933-402d-a19b-58765c077fa6" name="Default Changelist" comment="add django CI">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/django.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +166,7 @@
       <workItem from="1589364887586" duration="258000" />
       <workItem from="1589530988590" duration="21238000" />
       <workItem from="1589654939125" duration="4254000" />
-      <workItem from="1589669780143" duration="1705000" />
+      <workItem from="1589669780143" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="well start">
       <created>1588711722044</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589670973901</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add django CI">
+      <created>1589671790246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589671790246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +250,8 @@
     <MESSAGE value="upload media and backgrounds" />
     <MESSAGE value="add unittests" />
     <MESSAGE value="update migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="update migrations" />
+    <MESSAGE value="add django CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add django CI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="144" width="732" height="637" key="#Inspections" timestamp="1589231297085">
@@ -260,10 +270,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="656" y="198" width="344" height="528" key="#xdebugger.XInspectDialog/67.27.1533.873@67.27.1533.873" timestamp="1589197046226" />
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589670973743">
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589671903733">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589670973743" />
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589671903733" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1589201634194">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -312,10 +322,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1589295203742" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589670978812">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589671840140">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1589670978812" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1589671840140" />
     <state x="604" y="377" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588719631315">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
