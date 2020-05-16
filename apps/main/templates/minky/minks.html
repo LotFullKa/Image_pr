@@ -2,7 +2,8 @@
 
 {% block content %}
     <div class="container">
-    <h1 align="center"><span class="badge badge-primary"> Choice Your Hero ! </span></h1>
+    <h1 align="center"><span class="badge badge-dark"> Choice Your Hero ! </span></h1>
+
 
     <form method='GET' action="">
 
@@ -17,5 +18,16 @@
         {% block cartoons %}
         {% endblock %}
     </div>
+    <p>
+    <div> Если вы хотите добавить картинку :
+    <form method="post" action="">
+        {% csrf_token %}
+
+        {{ form_for_upload.as_p }}
+
+        <input class="btn btn-outline-dark" type="submit" name="upload" value="Upload">
+    </form>
+    </div>
+    </p>
     </div>
 {% endblock %}
