@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="55a11a40-0933-402d-a19b-58765c077fa6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/templates/minky/cartoons.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/minky/cartoons.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +74,8 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Django tests.Test: apps.main.tests.ImageTestCase.test_characters_attrs">
-    <configuration name="Test: apps.main.tests.ImageTestCase.test_characters_attrs" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RunManager" selected="Django Server.images">
+    <configuration name="Test: apps.main.tests.ImageTestCase.test_characters_attrs" type="DjangoTestsConfigurationType">
       <module name="images" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +115,7 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: static.css" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: static.css" type="DjangoTestsConfigurationType">
       <module name="images" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,12 +159,6 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Django tests.Test: apps.main.tests.ImageTestCase.test_characters_attrs" />
-        <item itemvalue="Django tests.Test: static.css" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -188,7 +183,9 @@
       <workItem from="1589530988590" duration="21238000" />
       <workItem from="1589654939125" duration="4254000" />
       <workItem from="1589669780143" duration="6385000" />
-      <workItem from="1589726199199" duration="6154000" />
+      <workItem from="1589726199199" duration="7099000" />
+      <workItem from="1589754509805" duration="250000" />
+      <workItem from="1589754770331" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="well start">
       <created>1588711722044</created>
@@ -274,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589731801326</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update test">
+      <created>1589733225093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589733225093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,13 +308,18 @@
     <MESSAGE value="update django CI" />
     <MESSAGE value="update upload images" />
     <MESSAGE value="add one test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add one test" />
+    <MESSAGE value="update test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="144" width="732" height="637" key="#Inspections" timestamp="1589231297085">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="462" y="144" width="732" height="637" key="#Inspections/67.27.1533.873@67.27.1533.873" timestamp="1589231297085" />
+    <state x="428" y="106" width="800" height="712" key="#Plugins" timestamp="1589754781042">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="106" width="800" height="712" key="#Plugins/67.27.1533.873@67.27.1533.873" timestamp="1589754781042" />
     <state x="495" y="103" width="666" height="718" key="#Test:_conf" timestamp="1589197363883">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -323,10 +332,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="656" y="198" width="344" height="528" key="#xdebugger.XInspectDialog/67.27.1533.873@67.27.1533.873" timestamp="1589197046226" />
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589731801263">
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589733225022">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589731801263" />
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589733225022" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1589201634194">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -335,38 +344,38 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="616" y="220" width="447" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1589231350324" />
-    <state width="1487" height="403" key="GridCell.Tab.0.bottom" timestamp="1589733065454">
+    <state width="1487" height="323" key="GridCell.Tab.0.bottom" timestamp="1589756931813">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589733065454" />
-    <state width="1487" height="403" key="GridCell.Tab.0.center" timestamp="1589733065454">
+    <state width="1487" height="323" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589756931813" />
+    <state width="1487" height="323" key="GridCell.Tab.0.center" timestamp="1589756931810">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1589733065454" />
-    <state width="1487" height="403" key="GridCell.Tab.0.left" timestamp="1589733065453">
+    <state width="1487" height="323" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1589756931810" />
+    <state width="1487" height="323" key="GridCell.Tab.0.left" timestamp="1589756931809">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1589733065453" />
-    <state width="1487" height="403" key="GridCell.Tab.0.right" timestamp="1589733065454">
+    <state width="1487" height="323" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1589756931809" />
+    <state width="1487" height="323" key="GridCell.Tab.0.right" timestamp="1589756931811">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1589733065454" />
-    <state width="1487" height="403" key="GridCell.Tab.1.bottom" timestamp="1589733065542">
+    <state width="1487" height="323" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1589756931811" />
+    <state width="1487" height="403" key="GridCell.Tab.1.bottom" timestamp="1589755444511">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589733065542" />
-    <state width="1487" height="403" key="GridCell.Tab.1.center" timestamp="1589733065541">
+    <state width="1487" height="403" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589755444511" />
+    <state width="1487" height="403" key="GridCell.Tab.1.center" timestamp="1589755444511">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1589733065541" />
-    <state width="1487" height="403" key="GridCell.Tab.1.left" timestamp="1589733065540">
+    <state width="1487" height="403" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1589755444511" />
+    <state width="1487" height="403" key="GridCell.Tab.1.left" timestamp="1589755444510">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1589733065540" />
-    <state width="1487" height="403" key="GridCell.Tab.1.right" timestamp="1589733065541">
+    <state width="1487" height="403" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1589755444510" />
+    <state width="1487" height="403" key="GridCell.Tab.1.right" timestamp="1589755444511">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="403" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1589733065541" />
+    <state width="1487" height="403" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1589755444511" />
     <state x="714" y="330" width="473" height="264" key="MultipleFileMergeDialog" timestamp="1589672391801">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -379,10 +388,14 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="322" y="97" key="SettingsEditor/67.27.1533.873@67.27.1533.873" timestamp="1589295203742" />
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589731805620">
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589733319505">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1589731805620" />
+    <state x="428" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1533.873@67.27.1533.873" timestamp="1589733319505" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1589755398559">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1589755398559" />
     <state x="604" y="377" width="448" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588719631315">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -414,7 +427,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/images$Test__static_css.coverage" NAME="Test: static.css Coverage Results" MODIFIED="1589196801470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/images$Test__apps_main_tests_ImageTestCase_test_characters_attrs.coverage" NAME="Test: apps.main.tests.ImageTestCase.test_characters_attrs Coverage Results" MODIFIED="1589733065397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/images$Test__apps_main_tests_ImageTestCase_test_characters_attrs.coverage" NAME="Test: apps.main.tests.ImageTestCase.test_characters_attrs Coverage Results" MODIFIED="1589754471366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/images$Test__conf.coverage" NAME="Test: conf Coverage Results" MODIFIED="1589197365979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

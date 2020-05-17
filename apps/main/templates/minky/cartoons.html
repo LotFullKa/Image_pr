@@ -1,12 +1,13 @@
 {% extends 'minky/minks.html' %}
 
  {% block cartoons %}
+     <div>
      Возможно вам подойдут:
      <div class="border border-primary" role='status'>
         {% if last_minks %}
             {% for obj in last_minks %}
                 {% if obj.img.url %}
-                    <img class="rounded-lg" src="{{ obj.img.url }}"  width="200" >
+                    <img class="rounded-lg imgege" src="{{ obj.img.url }}"  width="230" >
                 {% endif %}
             {% endfor %}
             <span class="sr-only"> Loading </span>
@@ -15,5 +16,6 @@
             но вот вам мое фото: <br>
                 <img src = "../../../../media/kamil.png" width="150">
         {% endif %}
+     </div>
      </div>
 {% endblock %}
