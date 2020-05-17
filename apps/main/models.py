@@ -7,7 +7,7 @@ from utils.enum_helpers import enum_to_choices
 
 
 class Image(models.Model):
-    img = models.ImageField()
+    img = models.ImageField(upload_to='')
 
     characters_race = models.CharField(
         max_length=100,

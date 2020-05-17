@@ -5,7 +5,9 @@
      <div class="border border-primary" role='status'>
         {% if last_minks %}
             {% for obj in last_minks %}
-                <img class="rounded-lg" src="{{ obj.img.url }}"  width="200" >
+                {% if obj.img.url %}
+                    <img class="rounded-lg" src="{{ obj.img.url }}"  width="200" >
+                {% endif %}
             {% endfor %}
             <span class="sr-only"> Loading </span>
         {% else %}

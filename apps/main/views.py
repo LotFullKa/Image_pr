@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from main.models import Image
 from main.form import ImageForm, HrefsFrom, ImageForUploadForm
@@ -15,24 +15,27 @@ def index(request):
     else:
         last_minks = Image.objects.all()
 
-    form_for_upload = ImageForUploadForm(request.POST, request.FILES)
-
-    if form_for_upload.is_valid() and 'upload' in request.POST:
-        Image.objects.create(
-            img=form_for_upload.instance.img,
-            characters_cls=form_for_upload.instance.characters_cls,
-            characters_race=form_for_upload.instance.characters_race,
-        )
-        last_minks = Image.objects.first()
-
     form.fields['characters_cls'].widget.attrs = {'class': 'custom-select'}
     form.fields['characters_race'].widget.attrs = {'class': 'custom-select'}
 
     return render(request, 'minky/cartoons.html',
                   {'last_minks': last_minks,
                    'form': form,
-                   'form_for_upload': form_for_upload,
                    })
+
+
+def upload_img(request):
+    if request.method == "POST":
+        form_for_upload = ImageForUploadForm(request.POST, request.FILES)
+
+        if form_for_upload.is_valid():
+            form_for_upload.save()
+            return redirect('index')
+    else:
+        form_for_upload = ImageForUploadForm()
+    return render(request, 'minky/upload.html', {
+        'form_for_upload': form_for_upload,
+    })
 
 
 def home(request):

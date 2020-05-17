@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+        <p>
+        <div> Если вы хотите добавить картинку :
+            <form method="post"   enctype="multipart/form-data" action="">
+                {% csrf_token %}
+
+                {{ form_for_upload.as_p }}
+
+                <input class="btn btn-outline-dark" type="submit" name="upload" value="Upload">
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
