@@ -11,18 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a11a40-0933-402d-a19b-58765c077fa6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/main/templates/minky/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/выдра.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/templates/minky/cartoons.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/minky/cartoons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/templates/minky/minks.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/templates/minky/minks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/main/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/main/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +166,7 @@
       <workItem from="1589530988590" duration="21238000" />
       <workItem from="1589654939125" duration="4254000" />
       <workItem from="1589669780143" duration="6385000" />
-      <workItem from="1589726199199" duration="4512000" />
+      <workItem from="1589726199199" duration="4878000" />
     </task>
     <task id="LOCAL-00001" summary="well start">
       <created>1588711722044</created>
@@ -249,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589672372399</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update upload images">
+      <created>1589731475136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589731475137</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +273,8 @@
     <MESSAGE value="update migrations" />
     <MESSAGE value="add django CI" />
     <MESSAGE value="update django CI" />
-    <option name="LAST_COMMIT_MESSAGE" value="update django CI" />
+    <MESSAGE value="update upload images" />
+    <option name="LAST_COMMIT_MESSAGE" value="update upload images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="144" width="732" height="637" key="#Inspections" timestamp="1589231297085">
@@ -296,10 +293,10 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="656" y="198" width="344" height="528" key="#xdebugger.XInspectDialog/67.27.1533.873@67.27.1533.873" timestamp="1589197046226" />
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589672372336">
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2" timestamp="1589731474971">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589672372336" />
+    <state x="372" y="27" width="912" height="873" key="CommitChangelistDialog2/67.27.1533.873@67.27.1533.873" timestamp="1589731474971" />
     <state x="167" y="125" width="1333" height="675" key="DiffContextDialog" timestamp="1589201634194">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
@@ -308,22 +305,22 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="616" y="220" width="447" height="484" key="FileChooserDialogImpl/67.27.1533.873@67.27.1533.873" timestamp="1589231350324" />
-    <state width="1487" height="323" key="GridCell.Tab.0.bottom" timestamp="1589731400461">
+    <state width="1487" height="323" key="GridCell.Tab.0.bottom" timestamp="1589731453012">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="323" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589731400461" />
-    <state width="1487" height="323" key="GridCell.Tab.0.center" timestamp="1589731400460">
+    <state width="1487" height="323" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1589731453012" />
+    <state width="1487" height="323" key="GridCell.Tab.0.center" timestamp="1589731453011">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="323" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1589731400460" />
-    <state width="1487" height="323" key="GridCell.Tab.0.left" timestamp="1589731400458">
+    <state width="1487" height="323" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1589731453011" />
+    <state width="1487" height="323" key="GridCell.Tab.0.left" timestamp="1589731453011">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="323" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1589731400458" />
-    <state width="1487" height="323" key="GridCell.Tab.0.right" timestamp="1589731400460">
+    <state width="1487" height="323" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1589731453011" />
+    <state width="1487" height="323" key="GridCell.Tab.0.right" timestamp="1589731453012">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="323" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1589731400460" />
+    <state width="1487" height="323" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1589731453012" />
     <state width="1487" height="372" key="GridCell.Tab.1.bottom" timestamp="1589676560465">
       <screen x="67" y="27" width="1533" height="873" />
     </state>

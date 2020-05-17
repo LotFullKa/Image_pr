@@ -23,9 +23,26 @@ class HrefsTestCase(TestCase):
 
 class ImageTestCase(TestCase):
 
+    def test_characters_attrs(self):
+        subject = Image()
+        subject.characters_cls = enum_to_choices(ClassEnum)[0]
+        subject.characters_race = enum_to_choices(RaceEnum)[0]
+
+        self.assertEqual(
+            Image.objects.get(id=subject.id).characters_cls,
+            enum_to_choices(ClassEnum)[0],
+        )
+
+        self.assertEqual(
+            Image.objects.get(id=subject.id).characters_race,
+            enum_to_choices(RaceEnum)[0],
+        )
+
     def test_str(self):
         subject = Image()
         subject.characters_cls = enum_to_choices(ClassEnum)[0]
         subject.characters_race = enum_to_choices(RaceEnum)[0]
-        self.assertEqual(subject.__str__(),
-                enum_to_choices(RaceEnum)[0].__str__() + ' - ' + enum_to_choices(ClassEnum)[0].__str__())
+        self.assertEqual(
+            subject.__str__(),
+            enum_to_choices(RaceEnum)[0].__str__() + ' - ' + enum_to_choices(ClassEnum)[0].__str__()
+        )
