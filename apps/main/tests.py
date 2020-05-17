@@ -27,15 +27,16 @@ class ImageTestCase(TestCase):
         subject = Image()
         subject.characters_cls = enum_to_choices(ClassEnum)[0]
         subject.characters_race = enum_to_choices(RaceEnum)[0]
+        subject.save()
 
         self.assertEqual(
             Image.objects.get(id=subject.id).characters_cls,
-            enum_to_choices(ClassEnum)[0],
+            str(enum_to_choices(ClassEnum)[0])
         )
 
         self.assertEqual(
             Image.objects.get(id=subject.id).characters_race,
-            enum_to_choices(RaceEnum)[0],
+            str(enum_to_choices(RaceEnum)[0])
         )
 
     def test_str(self):
