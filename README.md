@@ -17,4 +17,5 @@ Install Dependencies:
 - run `python -m pip install Pillow` 
 
 Run Tests:
+
 -run `python manage.py test`
